@@ -8,21 +8,40 @@
 <body>
     <h1>Registration Form</h1>
     <table>
-        First Name: <input type="text" name="name" placeholder="Kripa">
-        <br><br>
-        Last Name: <input type="text">
-        <br><br>
-        Father's Name: <input type="text">
-        <br><br>
-        Mother's Name: <input type="text">
-        <br><br>
-        Date of Birth: <input type="date">
-        <br><br>
-        E-mail: <input type="email">
-        <br><br>
-        Gender: Male <input type="radio" name="g1">  Female <input type="radio" name="g1">
-        <br><br>
-        Choose Course: <select>
+        <tr>
+        <td>First Name:</td> 
+        <td><input type="text"></td>
+        </tr>
+        <tr>
+           <td> Last Name:</td> 
+           <td><input type="text"></td>
+        </tr>
+        <tr>
+         <td>Father's Name:</td>
+         <td><input type="text"></td>
+        </tr>
+        <tr>
+       <td> Mother's Name:</td>
+       <td> <input type="text"></td>
+        </tr>
+        <tr>
+        <td>Date of Birth:</td> 
+       <td><input type="date"></td>
+        </tr>
+        <tr>
+        <td>E-mail:</td>  
+        <td><input type="email"></td>
+        </tr>
+        <tr>
+        <td>Gender:</td>
+        <td>
+         Male <input type="radio" name="g1">  Female <input type="radio" name="g1">
+         </td>
+        </tr>
+        <tr>
+       <td> Choose Course: </td>
+        <td>
+        <select>
             <option>-------select-------</option>
             <option>CSE</option>
             <option>CSE-DS</option>
@@ -31,17 +50,30 @@
             <option>ELCE</option>
             <option>ME</option>
         </select>
-        <br><br>
-        Hobbies: Singing<input type="checkbox">
-                         Dancing<input type="checkbox">
-                         Reading<input type="checkbox">
-                         Gardening<input type="checkbox">
-                         <br><br>
-        Address: <textarea></textarea>
-        <br><br>
-        Choose File: <input type="file">  
-        <br><br>
-        <button>Submit</button>  <button>Cancel</button>              
+        </td>
+        </tr>
+        <tr>
+       <td> Hobbies:</td>
+       <td>
+        Singing<input type="checkbox">
+        Dancing<input type="checkbox">
+        Reading<input type="checkbox">
+        Gardening<input type="checkbox">
+        </td>                 
+        </tr>
+        <tr>
+        <td>Address:</td>
+        <td><textarea></textarea></td>
+        </tr>
+        <tr>
+        <td>Choose File:</td> 
+        <td><input type="file"></td>  
+        </tr>
+        <tr>
+            <td colspan="2">
+        <button>Submit</button>  <button>Cancel</button>
+        </td>
+        </tr>              
     </table>
 </body>
 </html>
