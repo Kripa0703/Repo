@@ -1,0 +1,11 @@
+
+
+.box{
+    width: 500px;
+    height: 500px;
+    border: 50px,  solid rgb(84, 11, 11);
+    padding: 30px;
+   margin: 120px;
+   background-image: url("download.jpeg");
+
+}
